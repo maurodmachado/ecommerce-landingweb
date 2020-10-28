@@ -13,6 +13,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
+import {Link} from 'react-router-dom';
 
 // core components
 import LoginImagen from 'assets/img/login-image.jpg';
@@ -97,15 +98,15 @@ function SectionLogin() {
                 </div>
               </Card>
               <div className="col text-center">
-                <Button
+              
+              <Button
                   className="btn-round"
                   outline
                   color="neutral"
-                  href="/register-page"
                   size="lg"
                   target="_blank"
                 >
-                  View Register Page
+                  <Link to="/register-page" className="link">View Register Page</Link>
                 </Button>
               </div>
             </Col>
