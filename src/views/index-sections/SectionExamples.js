@@ -25,10 +25,9 @@ function SectionExamples() {
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
-                href="/landing-page"
                 target="_blank"
               >
-                Landing Page
+               <Link to="/landing-page" className="link">Landing Page</Link> 
               </Button>
             </Col>
             <Col className="text-center" md="6">
@@ -43,10 +42,9 @@ function SectionExamples() {
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
-                href="/profile-page"
                 target="_blank"
               >
-                Profile Page
+                <Link to="/profile-page" className="link">Profile Page</Link>
               </Button>
             </Col>
           </Row>
