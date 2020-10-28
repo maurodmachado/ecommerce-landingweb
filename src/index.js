@@ -18,27 +18,23 @@ import RegisterPage from "views/examples/RegisterPage.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/index" />
+      <Route path="/index" render={(props) => <Index {...props} />} />
       <Route
         path="/nucleo-icons"
-        >
-        <NucleoIcons/>
-        </Route>
+        render={(props) => <NucleoIcons {...props} />}
+      />
       <Route
         path="/landing-page"
-        >
-        <LandingPage/>
-        </Route>
+        render={(props) => <LandingPage {...props} />}
+      />
       <Route
         path="/profile-page"
-      >
-      <ProfilePage/>
-      </Route>
+        render={(props) => <ProfilePage {...props} />}
+      />
       <Route
         path="/register-page"
-      >
-        <RegisterPage/>
-      </Route>
+        render={(props) => <RegisterPage {...props} />}
+      />
       <Redirect to="/index" />
     </Switch>
   </BrowserRouter>
