@@ -24,6 +24,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 import Image from 'assets/img/faces/clem-onojeghuo-3.jpg';
 import Image1 from 'assets/img/faces/joe-gardner-2.jpg';
 import Image2 from 'assets/img/faces/erik-lucatero-2.jpg';
+
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {

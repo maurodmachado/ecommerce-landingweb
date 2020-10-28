@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-
+import {Link} from 'react-router-dom';
 // core components
 import LandingPage from 'assets/img/examples/landing-page.png';
 import ProfilePage from 'assets/img/examples/profile-page.png';
